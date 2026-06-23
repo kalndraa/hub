@@ -1,6 +1,6 @@
 "use client";
 
-import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 import { profile } from "@/data/site";
 import { fadeUp, staggerContainer } from "@/lib/motion";
@@ -51,7 +51,7 @@ export function HeroSection() {
               variants={fadeUp}
               className="mb-5 font-mono text-xs uppercase tracking-[0.42em] text-white/46"
             >
-              Portfolio Core
+              Network
             </motion.p>
             <motion.h1
               variants={fadeUp}
@@ -76,9 +76,9 @@ export function HeroSection() {
               className="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center"
             >
               <SocialButton
-                href={profile.githubUrl}
-                label="GitHub"
-                icon={faGithub}
+                href={profile.tiktokUrl}
+                label="TikTok"
+                icon={faTiktok}
                 variant="primary"
               />
               <SocialButton

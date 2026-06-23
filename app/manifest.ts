@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Nael Portfolio",
+    name: "Profile",
     short_name: "Nael",
-    description: "Premium personal portfolio for Nael.",
+    description: "My Personal Website.",
     start_url: "/",
     display: "standalone",
     background_color: "#050505",

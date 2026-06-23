@@ -14,18 +14,19 @@ export function ProjectsSection() {
     <Section
       id="projects"
       eyebrow="Projects"
-      title="Selected builds with a modern product feel."
-      description="A compact showcase for web, Discord, and backend work. Swap the data file with real production links as the portfolio grows."
+      title="A list of my creations."
+      description="Created with the following skills."
     >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-140px" }}
-        className="grid gap-5 lg:grid-cols-3"
+        className="mx-auto grid max-w-2xl gap-4 grid-cols-1 justify-center justify-items-center"
+
       >
         {projects.map((project) => (
-          <motion.article key={project.title} variants={fadeUp}>
+          <motion.article key={project.title} variants={fadeUp} className="mx-auto w-full max-w-sm">
             <GlassCard className="group flex h-full flex-col overflow-hidden transition duration-300 hover:-translate-y-2 hover:border-white/16 hover:bg-white/[0.068]">
               <div className="relative aspect-[16/10] overflow-hidden border-b border-white/8 bg-white/[0.03]">
                 <Image
@@ -54,25 +55,6 @@ export function ProjectsSection() {
                       {technology}
                     </span>
                   ))}
-                </div>
-                <div className="mt-6 flex gap-3">
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex h-10 flex-1 items-center justify-center gap-2 rounded-full border border-white/10 bg-white/[0.045] text-sm font-medium text-white/76 outline-none transition hover:bg-white/[0.085] hover:text-white focus-visible:ring-2 focus-visible:ring-cyan-200/70"
-                  >
-                    <FontAwesomeIcon aria-hidden="true" icon={faGithub} className="h-4 w-4" />
-                    GitHub
-                  </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex h-10 flex-1 items-center justify-center rounded-full bg-white text-sm font-medium text-black outline-none transition hover:bg-cyan-100 focus-visible:ring-2 focus-visible:ring-cyan-200/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-                  >
-                    Live Demo
-                  </a>
                 </div>
               </div>
             </GlassCard>

@@ -14,13 +14,11 @@ export type Project = {
   description: string;
   technologies: string[];
   thumbnail: string;
-  githubUrl: string;
-  liveUrl: string;
 };
 
 export type ContactLink = {
   label: string;
   value: string;
   href: string;
-  kind: "discord" | "github" | "email";
+  kind: "discord" | "tiktok" | "email";
 };

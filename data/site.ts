@@ -12,10 +12,10 @@ export const profile = {
   name: "Nael",
   role: "Developer • Designer • Creator",
   description:
-    "I craft clean digital products with a focus on smooth interfaces, thoughtful systems, and details that make software feel effortless.",
-  githubUrl: "https://github.com/nael",
-  discordUrl: "https://discord.com/users/nael",
-  discordHandle: "@nael",
+    "I'm looking forward to have better experiences.",
+  tiktokUrl: "https://tiktok.com/@k3ydw",
+  discordUrl: "https://discord.com/users/1288936739561279618",
+  discordHandle: "@k4.el",
   email: "hello@nael.dev"
 };
 
@@ -30,7 +30,7 @@ export const aboutCards = [
     eyebrow: "Current Focus",
     title: "Premium web experiences and Discord-powered systems.",
     body:
-      "The current stack centers on Next.js, TypeScript, TailwindCSS, Node.js, Prisma, and Discord.js for products that ship quickly and stay maintainable."
+      "The current stack centers on a bunch of tools for products that ship quickly and stay maintainable."
   },
   {
     eyebrow: "Experience",
@@ -42,74 +42,43 @@ export const aboutCards = [
 
 export const skills: Skill[] = [
   {
-    name: "Next.js",
-    description: "App Router, metadata, routing, performance, deployment.",
+    name: "Discord.js",
+    description: "Created a discord bot with multiple functions.",
     accent: "from-cyan-300/24 to-white/0"
   },
-  {
-    name: "React",
-    description: "Composable interfaces, stateful flows, accessible components.",
-    accent: "from-sky-300/22 to-white/0"
-  },
-  {
-    name: "TypeScript",
-    description: "Typed contracts, safer refactors, predictable codebases.",
-    accent: "from-indigo-300/20 to-white/0"
-  },
-  {
+    {
     name: "Node.js",
-    description: "APIs, services, automation, and server-side foundations.",
-    accent: "from-emerald-300/22 to-white/0"
+    description: "Developed fast server-side architectures and real-time backend systems using JavaScript.",
+    accent: "from-green-500/24 to-white/0"
   },
   {
-    name: "Discord.js",
-    description: "Discord bots, slash commands, workflows, and integrations.",
-    accent: "from-violet-300/22 to-white/0"
+    name: "HTML",
+    description: "Built semantic structures for web pages with proper SEO and accessibility foundations.",
+    accent: "from-orange-500/24 to-white/0"
   },
   {
-    name: "TailwindCSS",
-    description: "Responsive systems, refined surfaces, fast iteration.",
-    accent: "from-teal-300/22 to-white/0"
+    name: "CSS",
+    description: "Designed responsive layout systems with modern styling and responsive adaptations.",
+    accent: "from-blue-500/24 to-white/0"
   },
   {
-    name: "PostgreSQL",
-    description: "Relational modeling, data integrity, query fundamentals.",
-    accent: "from-blue-300/20 to-white/0"
+    name: "JavaScript",
+    description: "Implemented dynamic frontend features, state logic, and async API integrations.",
+    accent: "from-yellow-400/24 to-white/0"
   },
   {
-    name: "Prisma",
-    description: "Typed database access, schema evolution, clean workflows.",
-    accent: "from-rose-300/20 to-white/0"
-  }
+    name: "Accompany You",
+    description: "Of course, why not?",
+    accent: "from-yellow-400/24 to-white/0"
+  },
 ];
 
 export const projects: Project[] = [
   {
-    title: "Aurora Studio",
-    description:
-      "A refined portfolio and content system for creators who need a fast, expressive web presence.",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS"],
-    thumbnail: "/projects/aurora-studio.svg",
-    githubUrl: "https://github.com/nael/aurora-studio",
-    liveUrl: "https://aurora.nael.dev"
-  },
-  {
-    title: "Nova Bot",
-    description:
-      "A Discord.js automation layer with typed commands, clean moderation flows, and polished community utilities.",
-    technologies: ["Node.js", "Discord.js", "Prisma"],
-    thumbnail: "/projects/nova-bot.svg",
-    githubUrl: "https://github.com/nael/nova-bot",
-    liveUrl: "https://nova.nael.dev"
-  },
-  {
-    title: "Pulse API",
-    description:
-      "A production-ready API foundation with PostgreSQL, Prisma models, and secure service boundaries.",
-    technologies: ["PostgreSQL", "Prisma", "TypeScript"],
-    thumbnail: "/projects/pulse-api.svg",
-    githubUrl: "https://github.com/nael/pulse-api",
-    liveUrl: "https://pulse.nael.dev"
+    title: "Nael Bot",
+    description: "A Discord.js automation layer with typed commands, clean moderation flows, and polished community utilities.",
+    technologies: ["Node.js", "Discord.js"],
+    thumbnail: "/projects/nael-bot.jpg"
   }
 ];
 
@@ -121,15 +90,9 @@ export const contactLinks: ContactLink[] = [
     kind: "discord"
   },
   {
-    label: "GitHub",
-    value: "github.com/nael",
-    href: profile.githubUrl,
-    kind: "github"
-  },
-  {
-    label: "Email",
-    value: profile.email,
-    href: `mailto:${profile.email}`,
-    kind: "email"
+    label: "TikTok",
+    value: "tiktok.com/@k3ydw",
+    href: profile.tiktokUrl,
+    kind: "tiktok"
   }
 ];

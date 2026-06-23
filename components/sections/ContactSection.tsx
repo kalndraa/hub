@@ -1,6 +1,6 @@
 "use client";
 
-import { faDiscord, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import { contactLinks } from "@/data/site";
@@ -10,7 +10,7 @@ import { Section } from "@/components/ui/Section";
 
 const iconMap = {
   discord: faDiscord,
-  github: faGithub
+  tiktok: faTiktok
 } as const;
 
 export function ContactSection() {
@@ -18,8 +18,8 @@ export function ContactSection() {
     <Section
       id="contact"
       eyebrow="Contact"
-      title="Let’s build something sharp."
-      description="Reach Nael through Discord, GitHub, or email for collaborations, product work, and thoughtful web experiences."
+      title="24/7 Available."
+      description="Schedule up any projects."
       className="pb-20"
     >
       <motion.div
@@ -27,7 +27,7 @@ export function ContactSection() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-140px" }}
-        className="mx-auto grid max-w-4xl gap-4 md:grid-cols-3"
+        className="mx-auto grid max-w-2xl gap-4 md:grid-cols-2"
       >
         {contactLinks.map((link) => (
           <motion.div key={link.label} variants={fadeUp}>

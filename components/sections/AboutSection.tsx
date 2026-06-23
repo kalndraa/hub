@@ -11,8 +11,8 @@ export function AboutSection() {
     <Section
       id="about"
       eyebrow="About"
-      title="A clean portfolio presence with product-level polish."
-      description="Nael's work sits at the intersection of interface craft, pragmatic engineering, and small details that make digital spaces feel considered."
+      title="Anything that brings me fun."
+      description="Let me serve you a satisfying magic."
     >
       <motion.div
         variants={staggerContainer}

@@ -11,18 +11,18 @@ export function SkillsSection() {
     <Section
       id="skills"
       eyebrow="Skills"
-      title="A focused stack for polished, fast-moving builds."
-      description="Eight core tools, presented as compact cards with motion, hover depth, and soft glow."
+      title="Here's what i'm able to do."
+      description="Personally learnt by spending my 24 hours."
     >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-120px" }}
-        className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
+        className="mx-auto grid max-w-4xl gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center"
       >
         {skills.map((skill) => (
-          <motion.div key={skill.name} variants={scaleIn}>
+          <motion.div key={skill.name} variants={scaleIn} className="w-full max-w-sm mx-auto">
             <GlassCard
               className="group relative h-full overflow-hidden p-5 transition duration-300 hover:-translate-y-1 hover:border-white/16 hover:bg-white/[0.07]"
               subtle

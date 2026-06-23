@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { navItems } from "@/data/site";
 
@@ -34,9 +35,15 @@ export function Navigation() {
           className="group inline-flex items-center gap-3 rounded-full outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/70 focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           onClick={() => setIsOpen(false)}
         >
-          <span className="grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-white/[0.06] font-mono text-sm font-bold text-white shadow-glass-inset">
-            N
-          </span>
+        <div className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10 bg-white/[0.06]">
+          <Image
+            src="/projects/logo.jpeg"
+            alt="Nael Logo"
+              fill
+            className="object-cover"
+          />
+        </div>
+
           <span className="hidden text-sm font-semibold tracking-[0.22em] text-white/86 sm:block">
             NAEL
           </span>
