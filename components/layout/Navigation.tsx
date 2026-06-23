@@ -44,9 +44,9 @@ export function Navigation() {
           />
         </div>
 
-          <span className="hidden text-sm font-semibold tracking-[0.22em] text-white/86 sm:block">
-            NAEL
-          </span>
+        <span className="text-xs font-semibold tracking-[0.22em] text-white/86 sm:text-sm">
+          NAEL
+        </span>
         </a>
 
         <div className="hidden items-center gap-1 md:flex">
