@@ -44,24 +44,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Nael | Developer, Designer, Creator",
+    title: "N | Developer, Designer, Creator",
     description:
-      "A premium personal portfolio for Nael, showcasing development, design, and creative technical work.",
+      "My personal website, made as a profile open for you.",
     siteName: "Nael",
     images: [
       {
         url: "/og.svg",
         width: 1200,
         height: 630,
-        alt: "Nael portfolio preview"
+        alt: "Nael preview"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nael | Developer, Designer, Creator",
+    title: "N | Developer, Designer, Creator",
     description:
-      "A premium personal portfolio for Nael, showcasing development, design, and creative technical work.",
+      "My personal website, made as a profile open for you.",
     images: ["/og.svg"]
   },
   alternates: {
