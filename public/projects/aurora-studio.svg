@@ -1,0 +1,43 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aurora Studio abstract interface thumbnail</title>
+  <desc id="desc">Dark glass interface with layered aurora gradients and content panels.</desc>
+  <rect width="1280" height="800" fill="#050505"/>
+  <circle cx="1005" cy="54" r="420" fill="url(#paint0_radial)" opacity="0.78"/>
+  <circle cx="208" cy="676" r="360" fill="url(#paint1_radial)" opacity="0.64"/>
+  <path d="M0 521C211 434 330 475 511 532C741 604 902 575 1280 379V800H0V521Z" fill="url(#paint2_linear)" opacity="0.42"/>
+  <rect x="116" y="105" width="1048" height="590" rx="34" fill="white" fill-opacity="0.055" stroke="white" stroke-opacity="0.12"/>
+  <rect x="166" y="161" width="328" height="408" rx="24" fill="white" fill-opacity="0.052" stroke="white" stroke-opacity="0.1"/>
+  <rect x="534" y="161" width="580" height="122" rx="24" fill="white" fill-opacity="0.052" stroke="white" stroke-opacity="0.1"/>
+  <rect x="534" y="326" width="272" height="243" rx="24" fill="white" fill-opacity="0.042" stroke="white" stroke-opacity="0.09"/>
+  <rect x="842" y="326" width="272" height="243" rx="24" fill="white" fill-opacity="0.042" stroke="white" stroke-opacity="0.09"/>
+  <rect x="204" y="203" width="160" height="16" rx="8" fill="white" fill-opacity="0.72"/>
+  <rect x="204" y="243" width="240" height="10" rx="5" fill="white" fill-opacity="0.24"/>
+  <rect x="204" y="267" width="198" height="10" rx="5" fill="white" fill-opacity="0.18"/>
+  <circle cx="284" cy="420" r="86" fill="url(#paint3_radial)"/>
+  <rect x="574" y="204" width="270" height="16" rx="8" fill="white" fill-opacity="0.7"/>
+  <rect x="574" y="238" width="422" height="10" rx="5" fill="white" fill-opacity="0.2"/>
+  <rect x="574" y="371" width="120" height="14" rx="7" fill="white" fill-opacity="0.58"/>
+  <rect x="574" y="411" width="176" height="10" rx="5" fill="white" fill-opacity="0.2"/>
+  <rect x="882" y="371" width="132" height="14" rx="7" fill="white" fill-opacity="0.58"/>
+  <rect x="882" y="411" width="172" height="10" rx="5" fill="white" fill-opacity="0.2"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1005 54) rotate(90) scale(420)">
+      <stop stop-color="#52FFD6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#52FFD6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(208 676) rotate(90) scale(360)">
+      <stop stop-color="#FF6FB1" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FF6FB1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="paint2_linear" x1="0" y1="440" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52FFD6"/>
+      <stop offset="0.52" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF6FB1"/>
+    </linearGradient>
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284 420) rotate(90) scale(86)">
+      <stop stop-color="white" stop-opacity="0.88"/>
+      <stop offset="0.42" stop-color="#52FFD6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#52FFD6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
