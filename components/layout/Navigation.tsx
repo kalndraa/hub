@@ -38,14 +38,14 @@ export function Navigation() {
         <div className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10 bg-white/[0.06]">
           <Image
             src="/projects/logo.jpeg"
-            alt="Nael Logo"
+            alt="Revin Logo"
               fill
             className="object-cover"
           />
         </div>
 
         <span className="text-xs font-semibold tracking-[0.22em] text-white/86 sm:text-sm">
-          NAEL
+          REVIN
         </span>
         </a>
 

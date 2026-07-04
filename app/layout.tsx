@@ -23,13 +23,13 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://k4el.pages.dev";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Nael | Developer, Designer, Creator",
-    template: "%s | Nael"
+    default: "Revin | Developer, Designer, Creator",
+    template: "%s | Revin"
   },
   description:
-    "Nael is a developer, designer, and creator building polished web experiences, Discord products, and modern digital systems.",
+    "Revin is a developer, designer, and creator building polished web experiences, Discord products, and modern digital systems.",
   keywords: [
-    "Nael",
+    "Revin",
     "portfolio",
     "developer",
     "designer",
@@ -39,21 +39,21 @@ export const metadata: Metadata = {
     "TypeScript",
     "Discord.js"
   ],
-  authors: [{ name: "Nael" }],
-  creator: "Nael",
+  authors: [{ name: "Revin" }],
+  creator: "Revin",
   openGraph: {
     type: "website",
     url: siteUrl,
     title: "N | Developer, Designer, Creator",
     description:
       "My personal website, made as a profile open for you.",
-    siteName: "Nael",
+    siteName: "Revin",
     images: [
       {
         url: "/og.svg",
         width: 1200,
         height: 630,
-        alt: "Nael preview"
+        alt: "Revin preview"
       }
     ]
   },

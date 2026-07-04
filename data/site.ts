@@ -9,14 +9,14 @@ export const navItems: NavItem[] = [
 ];
 
 export const profile = {
-  name: "Nael",
+  name: "Revin",
   role: "Developer • Designer • Creator",
   description:
     "I'm looking forward to have better experiences.",
   tiktokUrl: "https://tiktok.com/@k3ydw",
   discordUrl: "https://discord.com/users/1288936739561279618",
   discordHandle: "@k4.el",
-  email: "hello@nael.dev"
+  email: "hello@revin.dev"
 };
 
 export const aboutCards = [
@@ -24,7 +24,7 @@ export const aboutCards = [
     eyebrow: "Introduction",
     title: "Design-minded engineering for modern web products.",
     body:
-      "Nael builds polished interfaces, scalable frontends, and developer tools that balance visual atmosphere with practical performance."
+      "Revin builds polished interfaces, scalable frontends, and developer tools that balance visual atmosphere with practical performance."
   },
   {
     eyebrow: "Current Focus",
@@ -75,10 +75,10 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    title: "Nael Bot",
+    title: "Revin Bot",
     description: "A Discord.js automation layer with typed commands, clean moderation flows, and polished community utilities.",
     technologies: ["Node.js", "Discord.js"],
-    thumbnail: "/projects/nael-bot.jpg"
+    thumbnail: "/projects/revin-bot.jpg"
   }
 ];
 

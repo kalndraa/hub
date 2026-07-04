@@ -6,7 +6,7 @@ import { useMouseParallax } from "@/hooks/useMouseParallax";
 
 type FloatingItem = {
   id: number;
-  label: "Nael" | "NAEL" | "nael";
+  label: "Revin" | "REVIN" | "revin";
   left: number;
   top: number;
   opacity: number;
@@ -18,7 +18,7 @@ type FloatingItem = {
   driftY: number;
 };
 
-const labels: FloatingItem["label"][] = ["Nael", "NAEL", "nael"];
+const labels: FloatingItem["label"][] = ["Revin", "REVIN", "revin"];
 
 function seededRandom(seed: number) {
   let value = seed % 2147483647;
