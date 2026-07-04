@@ -72,21 +72,25 @@ export function FloatingBackground() {
         {items.map((item) => (
           <motion.span
             key={item.id}
-            className="absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white"
+            className="absolute select-none font-mono text-[clamp(2.4rem,8vw,9rem)] font-black uppercase leading-none tracking-[0.18em] text-white will-change-transform layer-accelerated"
             style={{
               left: `${item.left}%`,
               top: `${item.top}%`,
               opacity: item.opacity,
-              transform: `translate3d(-50%, -50%, 0) scale(${item.scale}) rotate(${item.rotate}deg)`,
-              textShadow: "0 0 34px rgba(255,255,255,0.16)"
             }}
+            initial={
+              reducedMotion
+                ? { scale: item.scale, rotate: item.rotate, x: "-50%", y: "-50%" }
+                : false
+            }
             animate={
               reducedMotion
                 ? undefined
                 : {
-                    x: [0, item.driftX, 0],
-                    y: [0, item.driftY, 0],
-                    rotate: [item.rotate, item.rotate + 4, item.rotate]
+                    x: ["-50%", `calc(-50% + ${item.driftX}px)`, "-50%"],
+                    y: ["-50%", `calc(-50% + ${item.driftY}px)`, "-50%"],
+                    rotate: [item.rotate, item.rotate + 4, item.rotate],
+                    scale: item.scale,
                   }
             }
             transition={{

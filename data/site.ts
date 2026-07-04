@@ -13,9 +13,9 @@ export const profile = {
   role: "Developer • Designer • Creator",
   description:
     "I'm looking forward to have better experiences.",
-  tiktokUrl: "https://tiktok.com/@k3ydw",
+  tiktokUrl: "https://tiktok.com/@r_vnra",
   discordUrl: "https://discord.com/users/1288936739561279618",
-  discordHandle: "@k4.el",
+  discordHandle: "@rvnra",
   email: "hello@revin.dev"
 };
 
@@ -75,10 +75,10 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    title: "Revin Bot",
+    title: "Eclipse Bot",
     description: "A Discord.js automation layer with typed commands, clean moderation flows, and polished community utilities.",
     technologies: ["Node.js", "Discord.js"],
-    thumbnail: "/projects/revin-bot.jpg"
+    thumbnail: "/projects/ecl-bot.webp"
   }
 ];
 
@@ -91,7 +91,7 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: "TikTok",
-    value: "tiktok.com/@k3ydw",
+    value: "tiktok.com/@r_vnra",
     href: profile.tiktokUrl,
     kind: "tiktok"
   }
