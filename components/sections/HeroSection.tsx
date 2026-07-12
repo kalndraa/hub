@@ -1,6 +1,7 @@
 "use client";
 
 import { faDiscord, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { faMoneyBillWave, faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import { profile } from "@/data/site";
 import { fadeUp, staggerContainer } from "@/lib/motion";
@@ -76,15 +77,15 @@ export function HeroSection() {
               className="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center"
             >
               <SocialButton
-                href={profile.tiktokUrl}
-                label="TikTok"
-                icon={faTiktok}
+                href={profile.saweriaUrl}
+                label="Supports"
+                icon={faMoneyBillWave}
                 variant="primary"
               />
               <SocialButton
-                href={profile.discordUrl}
-                label="Discord"
-                icon={faDiscord}
+                href="#contact"
+                label="Contacts"
+                icon={faPaperclip}
               />
             </motion.div>
           </GlassCard>
