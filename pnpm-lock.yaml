@@ -16,7 +16,7 @@ importers:
         version: 7.2.0
       '@fortawesome/free-solid-svg-icons':
         specifier: ^7.2.0
-        version: 7.3.0
+        version: 7.2.0
       '@fortawesome/react-fontawesome':
         specifier: ^3.3.1
         version: 3.3.1(@fortawesome/fontawesome-svg-core@7.2.0)(react@19.2.7)
