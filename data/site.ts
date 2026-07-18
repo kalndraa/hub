@@ -16,6 +16,7 @@ export const profile = {
   tiktokUrl: "https://tiktok.com/@r_vnra",
   saweriaUrl: "https://saweria.co/rvnra",
   discordUrl: "https://discord.com/users/1288936739561279618",
+  communityUrl: "https://discord.gg/hnM25Q7fvS",
   discordHandle: "@rvnra",
   email: "hello@revin.dev"
 };

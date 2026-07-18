@@ -84,8 +84,13 @@ export function HeroSection() {
               />
               <SocialButton
                 href="#contact"
-                label="Contacts"
+                label="Links"
                 icon={faPaperclip}
+              />
+                <SocialButton
+                href={profile.communityUrl}
+                label="Community"
+                icon={faDiscord}
               />
             </motion.div>
           </GlassCard>

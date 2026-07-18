@@ -17,7 +17,7 @@ export function ContactSection() {
   return (
     <Section
       id="contact"
-      eyebrow="Contact"
+      eyebrow="Platforms"
       title="24/7 Available."
       description="Schedule up any projects."
       className="pb-20"
